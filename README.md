@@ -9,10 +9,12 @@ Then, we calculate the depth for each node, assuming that it makes all required 
 
 All results (from a demo swarmscan file) are provided
 
+The script also calculate assumed real connections and depths based on the "peers" field
+
 # Prerequisites
 - python3
 - install all modules with pip install <module_name>
-- a swarmscan file, saved in this directory (see: https://swarmscan-api.resenje.org/#tag/Network/paths/~1v1~1network~1dump/get)
+- a swarmscan file, saved in this directory (get it by https://swarmscan-api.resenje.org/v1/network/dump => https://swarmscan-api.resenje.org/#tag/Network/paths/~1v1~1network~1dump/get)
     - this is already provided for your convenience. Be sure to update this if needed!
 
 # Run
